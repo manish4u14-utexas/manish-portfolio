@@ -1,83 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manish Chaudhari | Senior AI Business Analyst</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Meta tags and CSS links -->
 </head>
 <body>
     <div id="particles-js"></div>
     
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">MC</div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <header><!-- Navigation --></header>
 
     <main>
+        <!-- 1. Hero Section -->
         <section id="hero">
+            <div class="hero-content">
+                <h1>Manish Chaudhari</h1>
+                <h2>Senior AI Business Analyst</h2>
+                <div class="hero-subtitle">
+                    <span>Technical & AI Integration</span>
+                    <span>Web Application Expert</span>
+                    <span>Salesforce & Heroku Specialist</span>
+                </div>
+                <!-- Contact buttons -->
+            </div>
+        </section>
+
+        <!-- 2. Professional Summary -->
+        <section id="summary" class="section">
             <div class="container">
-                <div class="hero-content">
-                    <h1>Manish Chaudhari</h1>
-                    <h2>Senior AI Business Analyst</h2>
-                    <p class="subtitle">Technical & AI Integration | Web Application Expert</p>
-                    <div class="social-links">
-                        <a href="https://github.com/manish4u14" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:manish4u14@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="assets/Manish_Resume.pdf" download class="resume-btn">Download Resume</a>
+                <h2 class="section-title">Professional Profile</h2>
+                <div class="summary-content">
+                    <p>Results-driven <strong>Senior Business Systems Analyst & Scrum Master</strong> with <strong>10+ years</strong> of experience in:</p>
+                    <ul class="summary-highlights">
+                        <li><i class="fas fa-check-circle"></i> AI-driven business automation</li>
+                        <li><i class="fas fa-check-circle"></i> Web API and middleware integration</li>
+                        <li><i class="fas fa-check-circle"></i> Salesforce CRM customization</li>
+                        <li><i class="fas fa-check-circle"></i> Heroku cloud management</li>
+                        <li><i class="fas fa-check-circle"></i> Agile project leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Matrix -->
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Skills & Capabilities</h2>
+                
+                <div class="skills-matrix">
+                    <!-- AI Skills -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-robot"></i> AI Expertise</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>Generative AI</span>
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                            <div class="skill-item">
+                                <span>AI Automation</span>
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                            <!-- Add all AI skills from resume -->
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Skills -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Web API Integration</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <!-- All technical skills -->
+                        </div>
+                    </div>
+                    
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <div class="tool-grid">
+                            <div class="tool-item">
+                                <img src="images/tools/salesforce.png" alt="Salesforce">
+                                <span>Salesforce CRM</span>
+                            </div>
+                            <!-- All tools from resume -->
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section">
+        <!-- 4. Professional Experience (Detailed) -->
+        <section id="experience" class="section">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>Results-driven Senior Business Systems Analyst & Scrum Master with 10+ years of experience in business analysis, system design, and technical implementation. Expertise in Web API integration, Middleware, Salesforce, and AI-driven automation.</p>
-                        <p>Currently pursuing Master of Science in Artificial Intelligence at University of Texas at Austin (Expected July 2026). Passionate about AI-driven business transformation and process automation.</p>
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <!-- Align Technology -->
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3>Sr. AI Business Analyst</h3>
+                        <span class="exp-date">Dec 2021 - Present</span>
                     </div>
-                    <div class="about-image">
-                        <img src="images/profile.jpg" alt="Manish Chaudhari">
+                    <div class="exp-company">Align Technology, Morrisville, NC</div>
+                    
+                    <div class="exp-highlights">
+                        <div class="highlight-card">
+                            <i class="fas fa-brain"></i>
+                            <h4>AI Implementation</h4>
+                            <ul>
+                                <li>Reduced manual effort by 40% through generative AI for documentation</li>
+                                <li>Improved sprint accuracy by 25% using Atlassian AI</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="highlight-card">
+                            <i class="fas fa-cloud"></i>
+                            <h4>Heroku Management</h4>
+                            <ul>
+                                <li>Managed dyno configuration and performance monitoring</li>
+                                <li>Integrated New Relic, BugSnag, and Pingdom</li>
+                            </ul>
+                        </div>
+                        <!-- All your bullet points organized -->
+                    </div>
+                </div>
+                
+                <!-- Previous positions same structure -->
+            </div>
+        </section>
+
+        <!-- 5. Education & Certifications -->
+        <section id="education" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Education & Credentials</h2>
+                
+                <div class="edu-grid">
+                    <div class="edu-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>MS in Artificial Intelligence</h3>
+                        <p>University of Texas at Austin</p>
+                        <span>Expected 2026</span>
+                    </div>
+                    
+                    <div class="cert-slider">
+                        <!-- Certification slider from earlier -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Other sections included in the complete files -->
+        <!-- 6. Projects Section -->
+        <section id="projects" class="section">
+            <!-- Projects structure -->
+        </section>
+
+        <!-- 7. Contact Section -->
+        <section id="contact" class="section">
+            <!-- Contact form -->
+        </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Manish Chaudhari. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/certifications.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
