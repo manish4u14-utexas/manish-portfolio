@@ -1,161 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta tags and CSS links -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Chaudhari | Senior AI Business Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="particles-js"></div>
     
-    <header><!-- Navigation --></header>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MC</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
 
     <main>
-        <!-- 1. Hero Section -->
         <section id="hero">
-            <div class="hero-content">
-                <h1>Manish Chaudhari</h1>
-                <h2>Senior AI Business Analyst</h2>
-                <div class="hero-subtitle">
-                    <span>Technical & AI Integration</span>
-                    <span>Web Application Expert</span>
-                    <span>Salesforce & Heroku Specialist</span>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Manish Chaudhari</h1>
+                    <h2>Senior AI Business Analyst</h2>
+                    <p class="subtitle">Technical & AI Integration | Web Application Expert</p>
+                    <div class="social-links">
+                        <a href="https://github.com/manish4u14" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:manish4u14@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="assets/Manish_Resume.pdf" download class="resume-btn">Download Resume</a>
+                    </div>
                 </div>
-                <!-- Contact buttons -->
             </div>
         </section>
 
-        <!-- 2. Professional Summary -->
-        <section id="summary" class="section">
+        <section id="about" class="section">
             <div class="container">
                 <h2 class="section-title">Professional Profile</h2>
-                <div class="summary-content">
-                    <p>Results-driven <strong>Senior Business Systems Analyst & Scrum Master</strong> with <strong>10+ years</strong> of experience in:</p>
-                    <ul class="summary-highlights">
-                        <li><i class="fas fa-check-circle"></i> AI-driven business automation</li>
-                        <li><i class="fas fa-check-circle"></i> Web API and middleware integration</li>
-                        <li><i class="fas fa-check-circle"></i> Salesforce CRM customization</li>
-                        <li><i class="fas fa-check-circle"></i> Heroku cloud management</li>
-                        <li><i class="fas fa-check-circle"></i> Agile project leadership</li>
-                    </ul>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Results-driven <strong>Senior Business Systems Analyst & Scrum Master</strong> with <strong>10+ years</strong> of experience in business analysis, system design, and technical implementation.</p>
+                        <p>Expertise in <strong>AI-driven automation, Web API integration, Salesforce CRM, and Heroku cloud management</strong>. Currently pursuing <strong>MS in Artificial Intelligence</strong> at University of Texas at Austin (Expected 2026).</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">40%</span>
+                                <span class="stat-label">Efficiency Gain</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">25%</span>
+                                <span class="stat-label">Sprint Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/profile.jpg" alt="Manish Chaudhari">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- 3. Skills Matrix -->
         <section id="skills" class="section bg-light">
             <div class="container">
-                <h2 class="section-title">Skills & Capabilities</h2>
-                
+                <h2 class="section-title">Technical Expertise</h2>
                 <div class="skills-matrix">
-                    <!-- AI Skills -->
                     <div class="skill-category">
-                        <h3><i class="fas fa-robot"></i> AI Expertise</h3>
+                        <h3><i class="fas fa-robot"></i> AI/ML Skills</h3>
                         <div class="skill-items">
                             <div class="skill-item">
                                 <span>Generative AI</span>
                                 <div class="skill-bar" data-level="90"></div>
                             </div>
                             <div class="skill-item">
-                                <span>AI Automation</span>
+                                <span>Prompt Engineering</span>
                                 <div class="skill-bar" data-level="85"></div>
                             </div>
-                            <!-- Add all AI skills from resume -->
+                            <div class="skill-item">
+                                <span>AI Automation</span>
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
                         </div>
                     </div>
                     
-                    <!-- Technical Skills -->
                     <div class="skill-category">
-                        <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                        <h3><i class="fas fa-code"></i> Development</h3>
                         <div class="skill-tags">
-                            <span class="skill-tag">Web API Integration</span>
+                            <span class="skill-tag">Web API</span>
                             <span class="skill-tag">Microservices</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <!-- All technical skills -->
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">SQL/MongoDB</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">PyTorch</span>
                         </div>
                     </div>
                     
-                    <!-- Tools -->
                     <div class="skill-category">
-                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <h3><i class="fas fa-tools"></i> Platforms & Tools</h3>
                         <div class="tool-grid">
                             <div class="tool-item">
                                 <img src="images/tools/salesforce.png" alt="Salesforce">
-                                <span>Salesforce CRM</span>
+                                <span>Salesforce</span>
                             </div>
-                            <!-- All tools from resume -->
+                            <div class="tool-item">
+                                <img src="images/tools/heroku.png" alt="Heroku">
+                                <span>Heroku</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/tools/jira.png" alt="JIRA">
+                                <span>JIRA</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/tools/figma.png" alt="Figma">
+                                <span>Figma</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 4. Professional Experience (Detailed) -->
         <section id="experience" class="section">
             <div class="container">
-                <h2 class="section-title">Professional Experience</h2>
-                
-                <!-- Align Technology -->
-                <div class="experience-item">
-                    <div class="exp-header">
-                        <h3>Sr. AI Business Analyst</h3>
-                        <span class="exp-date">Dec 2021 - Present</span>
-                    </div>
-                    <div class="exp-company">Align Technology, Morrisville, NC</div>
-                    
-                    <div class="exp-highlights">
-                        <div class="highlight-card">
-                            <i class="fas fa-brain"></i>
-                            <h4>AI Implementation</h4>
+                <h2 class="section-title">Professional Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Sr. AI Business Analyst</h3>
+                            <h4>Align Technology, Morrisville, NC</h4>
                             <ul>
                                 <li>Reduced manual effort by 40% through generative AI for documentation</li>
                                 <li>Improved sprint accuracy by 25% using Atlassian AI</li>
+                                <li>Managed Heroku apps with New Relic, BugSnag, and Pingdom integration</li>
+                                <li>Automated reporting using EazyBI Analytics (30% visibility improvement)</li>
                             </ul>
                         </div>
-                        
-                        <div class="highlight-card">
-                            <i class="fas fa-cloud"></i>
-                            <h4>Heroku Management</h4>
-                            <ul>
-                                <li>Managed dyno configuration and performance monitoring</li>
-                                <li>Integrated New Relic, BugSnag, and Pingdom</li>
-                            </ul>
-                        </div>
-                        <!-- All your bullet points organized -->
-                    </div>
-                </div>
-                
-                <!-- Previous positions same structure -->
-            </div>
-        </section>
-
-        <!-- 5. Education & Certifications -->
-        <section id="education" class="section bg-light">
-            <div class="container">
-                <h2 class="section-title">Education & Credentials</h2>
-                
-                <div class="edu-grid">
-                    <div class="edu-card">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h3>MS in Artificial Intelligence</h3>
-                        <p>University of Texas at Austin</p>
-                        <span>Expected 2026</span>
                     </div>
                     
-                    <div class="cert-slider">
-                        <!-- Certification slider from earlier -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Sr. Business Systems Analyst</h3>
+                            <h4>Align Technology, Hyderabad, IN</h4>
+                            <ul>
+                                <li>Led technical implementation for consumer/provider web applications</li>
+                                <li>Conducted AI-driven data analysis using Kibana and Splunk</li>
+                                <li>Managed Heroku-based applications and performance metrics</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 6. Projects Section -->
-        <section id="projects" class="section">
-            <!-- Projects structure -->
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="automation">Automation</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="images/projects/ai-analytics.jpg" alt="AI Analytics">
+                        </div>
+                        <div class="project-info">
+                            <h3>AI-Powered Business Analytics</h3>
+                            <p>Implemented generative AI solutions to automate documentation and reporting processes.</p>
+                            <div class="project-tags">
+                                <span>Generative AI</span>
+                                <span>Python</span>
+                                <span>Atlassian AI</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/projects/web-app.jpg" alt="Web Application">
+                        </div>
+                        <div class="project-info">
+                            <h3>Provider Web Portal</h3>
+                            <p>Led development of provider-facing web application with Salesforce integration.</p>
+                            <div class="project-tags">
+                                <span>Web API</span>
+                                <span>Salesforce</span>
+                                <span>Heroku</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- 7. Contact Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="cert-tabs">
+                    <button class="tab-btn active" data-category="all">All</button>
+                    <button class="tab-btn" data-category="ai">AI</button>
+                    <button class="tab-btn" data-category="professional">Professional</button>
+                </div>
+                
+                <div class="swiper cert-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-category="ai">
+                            <div class="cert-card">
+                                <img src="images/certifications/ai-cert.jpg" alt="AI Certification">
+                                <h3>Generative AI Certification</h3>
+                                <p>Microsoft & LinkedIn</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="professional">
+                            <div class="cert-card">
+                                <img src="images/certifications/pspo.jpg" alt="PSPO Certification">
+                                <h3>Professional Scrum Product Owner</h3>
+                                <p>Scrum.org</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="section">
-            <!-- Contact form -->
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> manish4u14@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (984) 895-9263</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Morrisville, NC 27560</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manish Chaudhari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/certifications.js"></script>
 </body>
 </html>
