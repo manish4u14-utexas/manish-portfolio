@@ -198,3 +198,140 @@ nav {
         font-size: 1.5rem;
     }
 }
+
+/* Professional Experience Styling */
+.experience-item {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.exp-header h3 {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.exp-date {
+    background: var(--secondary);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.exp-company {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.exp-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.highlight-card {
+    background: var(--light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary);
+}
+
+.highlight-card i {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.highlight-card h4 {
+    margin-bottom: 0.8rem;
+    color: var(--primary);
+}
+
+.highlight-card ul {
+    padding-left: 1.2rem;
+}
+
+.highlight-card li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* Skills Matrix Styling */
+.skills-matrix {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.skill-items {
+    margin-top: 1rem;
+}
+
+.skill-item {
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.skill-bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background: var(--secondary);
+    width: 0;
+    animation: fillBar 1.5s ease-out forwards;
+}
+
+@keyframes fillBar {
+    to { width: attr(data-level); }
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tool-item {
+    text-align: center;
+}
+
+.tool-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
